@@ -1,0 +1,61 @@
+body {
+    background: url(fon-206.jpg);
+    min-width: 300px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border: 2px solid #e5e5e5;
+    align-content: center;
+    width: 900px;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+    background:#0000FF;
+    width: 150px;
+
+}
+
+.menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: white;
+    border-left: 1px solid #e5e5e5;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #F0FFFF;
+    color: #0000FF;
+}
+
+.menu .sub-menu {
+    position: absolute;
+    left: 1px;
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #00BFFF;
+}
+
+.menu .sub-menu a {
+    margin-bottom: -1px;
+    border: 1px solid #e5e5e5;
+}
+
+.menu > li:hover .sub-menu {
+    display: block;
+}
